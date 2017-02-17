@@ -41,7 +41,7 @@ A live preview lives [here](https://vh-red-tech-demo.firebaseapp.com/).
 9. Add Firebase Login and Google as a Sign-In Method
 10. Add Firebase Login code to `pizza.js`
 12. Change the user icon in the nav bar on successful login.
-11. ? Add Firebase Hosting ? More advanced
+13. ? Add Firebase Hosting ? More advanced
     --> Use `node` and `npm`
     --> run `npm install -g firebase-tools`
     --> then run `firebase init` from a command line in the **base of this directory**
