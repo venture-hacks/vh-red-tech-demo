@@ -1,0 +1,5 @@
+.idea
+# Code Node automatically pulls in
+node_modules
+# Project specific firebase config
+.firebaserc

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="party time, excellent">
+    <meta name="author" content="austin <austin.cawley@gmail.com>">
+
+    <!-- What shows up in the browser's tab-->
+    <title>Pretty Pizza</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+        <!-- Icon library -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <!-- Fonts from google -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HERE'S WHERE OUR CSS FILES GO -->
+    <link href="css/pizza.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <a class="navbar-brand page-scroll" href="#page-top">PRETTY PIZZA</a>
+            </div>
+
+            <div class="navbar-user-icon-container">
+                <img id="user-icon" src="img/header-bg.jpg" alt="User image">
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">Pizza Delivery is Painful</div>
+                <div class="intro-lead-in">We bring you pizza when it counts.</div>
+                <div id="login-button" class="btn btn-xl">Log In</div>
+                <div class="btn btn-xl">Browse Pizza</div>
+            </div>
+        </div>
+
+
+        <aside id="value-propositions">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <!-- Font Awesome gives you access to tons of FREE icons -->
+                        <!-- Change one of the icons by changing 'fa-clock-o'
+                            with an icon name found on : http://fontawesome.io/icons/
+                        -->
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-clock-o fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="value-prop-heading">Fast</h4>
+                        <p class="text-muted">We get you your pizza ASAP.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-users fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="value-prop-heading">Reliable</h4>
+                        <p class="text-muted">Enough of the 30 minutes or free. No questions here.</p>
+                    </div>
+
+                    <!-- ADD A THIRD VALUE PROPOSITION HERE -->
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                        </span>
+
+                        <h4 class="value-prop-heading">VALUES</h4>
+                        <p class="text-muted">WE HAVE THEM</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </header>
+
+
+    <section>
+        <p class="text-center"> ADD MORE CONTENT HERE </p>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="copyright">Copyright &copy; Venture Hacks 2017</span>
+                </div>
+                <div class="col-md-12">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/atVentureHacks"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/StevensVentureHacks/"><i class="fa fa-facebook"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- HERE IS WHERE WE LINK IN ALL THE JAVASCRIPT -->
+
+
+    <!-- FIREBASE -->
+    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      // YOUR CONFIG HERE
+      var config = {
+        apiKey: "AIzaSyDymvj5YR-5Yk-gf7FW8XJgmjSLsNG5YKQ",
+        authDomain: "vh-red-tech-demo.firebaseapp.com",
+        databaseURL: "https://vh-red-tech-demo.firebaseio.com",
+        storageBucket: "vh-red-tech-demo.appspot.com",
+        messagingSenderId: "860007382358"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/pizza.js"></script>
+
+</body>
+
+</html>
