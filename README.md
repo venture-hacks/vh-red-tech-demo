@@ -1,5 +1,7 @@
 # Venture Hacks: Red Technical Demo
 
+A live preview lives [here](https://vh-red-tech-demo.firebaseapp.com/).
+
 ## What's in here?
 
 ```
@@ -7,7 +9,9 @@
     public/  -- The Folder holding your website
         index.html  -- The HTML page that is loaded first. The 'homepage'
         css/        -- Holds all our stylesheets
+            pizza.css   -- Our homepage's main styles
         js/         -- Holds all our javascript scripts
+            pizza.js    -- Our homepage's main script
         img/        -- Holds all image assets
         vendor/     -- Everything that's not ours. Aka other libraries (Bootstrap, jQuery..)
 
@@ -21,25 +25,32 @@
 ```
 
 ## Steps
-0. Download Step 0 Code from Drive
-1. Run the code in the browser, either using `node` and `gulp` or
+1. Download Step 1 Code from Drive
+2. Run the code in the browser, either using `node` and `gulp` or
  just opening the `index.html`
-    --> run `npm install` if you have node installed.
+    --> if you have `node` installed:
+    --> run `npm install` from a command line in the **base of this directory**.
     --> then run `npm install -g gulp`
     --> then run `gulp dev`
-2. Link CSS file
-3. Change the Theme Colors from `#FEC503` to `#F44336` using CSS
-4. Add another Value Proposition
-5. Change the Value Proposition icons using Font Awesome `classes`
-6. Link the Javascript and add Basics + Event Listeners
-7. Add Firebase to your project
-8. Add Firebase Login
-9. ? Add Firebase Hosting ?
+3. Link CSS file
+4. Change the Theme Colors from `#FEC503` to `#F44336` using CSS
+5. Add another Value Proposition
+6. Change the Value Proposition icons using Font Awesome `classes`
+7. Link the Javascript and add Basics + Event Listeners
+8. Add Firebase to your project with [the console](console.firebase.google.com)
+9. Add Firebase Login and Google as a Sign-In Method
+10. Add Firebase Login code to `pizza.js`
+12. Change the user icon in the nav bar on successful login.
+11. ? Add Firebase Hosting ? More advanced
+    --> Use `node` and `npm`
+    --> run `npm install -g firebase-tools`
+    --> then run `firebase init` from a command line in the **base of this directory**
+    --> then run `firebase deploy`
 
 
 ## Extensions
-- Firebase UI Web : More cohesive when working with many auth types
--
+* [Firebase UI Web](https://github.com/firebase/FirebaseUI-Web) : More cohesive when working with many auth types
+*
 
 
 ## Based on a Bootstrap template!
