@@ -9,15 +9,11 @@ function login() {
  * Grab the elements from the html page
  */
 function setupLogin() {
-  loginButton = document.getElementById("login-button");
+  loginButton // = get a reference to the "login-button" div tag
   userIconImg // = get a reference to the "user-icon" image tag
 
   // Attach an event listener to the login button to trigger the firebase login
-  loginButton.addEventListener('click', function (event) {
-    // Makes sure we only do our code
-    event.preventDefault();
-    login();
-  })
+
 }
 
 
