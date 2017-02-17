@@ -1,6 +1,9 @@
-.idea
 # Code Node automatically pulls in
 node_modules
 # Project specific firebase config
 .firebaserc
+# Minified code
 public/**/*.min.*
+# Editor specific setting
+.editorconfig
+.idea

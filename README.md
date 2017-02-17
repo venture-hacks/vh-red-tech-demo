@@ -27,15 +27,16 @@ A live preview lives [here](https://vh-red-tech-demo.firebaseapp.com/).
 ## Steps
 1. Download Step 1 Code from Drive
 2. Run the code in the browser, either using `node` and `gulp` or
- just opening the `index.html`
-    --> if you have `node` installed:
-    --> run `npm install` from a command line in the **base of this directory**.
-    --> then run `npm install -g gulp`
-    --> then run `gulp dev`
+ just opening the `index.html`  
+    --> if you have `node` installed:  
+    --> run `npm install` from a command line in the
+    **base of this directory**.  
+    --> then run `npm install -g gulp`  
+    --> then run `gulp dev`  
 3. Link CSS file
-4. Change the Theme Colors using CSS from:
-    --> `#fec503` to `#F44336`
-    --> `#f6bf01` to `#E53935`
+4. Change the Theme Colors using CSS from:  
+    --> `#fec503` to `#F44336`  
+    --> `#f6bf01` to `#E53935`  
 5. Add another Value Proposition
 6. Change the Value Proposition icons using Font Awesome `classes`
 7. Link the Javascript and add Basics + Event Listeners
@@ -43,16 +44,17 @@ A live preview lives [here](https://vh-red-tech-demo.firebaseapp.com/).
 9. Add Firebase Login and Google as a Sign-In Method
 10. Add Firebase Login code to `pizza.js`
 11. Change the user icon in the nav bar on successful login.
-12. ? Add Firebase Hosting ? More advanced
-    --> Use `node` and `npm`
-    --> run `npm install -g firebase-tools`
-    --> then run `firebase init` from a command line in the **base of this directory**
-    --> then run `firebase deploy`
+12. ? Add Firebase Hosting ? More advanced  
+    --> Use `node` and `npm`  
+    --> run `npm install -g firebase-tools`  
+    --> then run `firebase init` from a command line in the
+     **base of this directory**  
+    --> then run `firebase deploy`  
 
 
 ## Extensions
-* [Firebase UI Web](https://github.com/firebase/FirebaseUI-Web) : More cohesive when working with many auth types
-*
+* [Firebase UI Web](https://github.com/firebase/FirebaseUI-Web) : More 
+    cohesive when working with many auth types
 
 
 ## Based on a Bootstrap template!
