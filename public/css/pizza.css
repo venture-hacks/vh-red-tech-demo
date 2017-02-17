@@ -18,7 +18,7 @@ body {
 }
 
 .text-primary {
-  color: #fed136;
+  color: #F44336;
 }
 
 p {
@@ -35,14 +35,14 @@ a.active {
 }
 
 a {
-  color: #fed136;
+  color: #F44336;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #E53935;
 }
 
 h1,
@@ -72,8 +72,8 @@ These are some of the Bootstrap classes that help us build quickly,
 
 .btn-primary {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #F44336;
+  border-color: #F44336;
   font-family: 'Droid Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -84,15 +84,15 @@ These are some of the Bootstrap classes that help us build quickly,
 .btn-primary:active,
 .btn-primary.active {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #E53935;
+  border-color: #E53935;
 }
 
 /* What we will use for our signin button */
 .btn-xl {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #F44336;
+  border-color: #F44336;
   font-family: 'Droid Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -106,8 +106,8 @@ These are some of the Bootstrap classes that help us build quickly,
 .btn-xl:active,
 .btn-xl.active {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #E53935;
+  border-color: #E53935;
 }
 
 .navbar-custom {
@@ -116,7 +116,7 @@ These are some of the Bootstrap classes that help us build quickly,
   height: 100px;
 }
 .navbar-custom .navbar-brand {
-  color: #fed136;
+  color: #F44336;
   font-family: 'Alegreya Sans SC', "Helvetica Neue", Helvetica, Arial, cursive;
   font-weight: bold;
 }
@@ -124,7 +124,7 @@ These are some of the Bootstrap classes that help us build quickly,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #fec503;
+  color: #F44336;
 }
 
 
@@ -305,5 +305,5 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #fed136;
+  background-color: #F44336;
 }

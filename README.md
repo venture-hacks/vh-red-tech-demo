@@ -33,7 +33,9 @@ A live preview lives [here](https://vh-red-tech-demo.firebaseapp.com/).
     --> then run `npm install -g gulp`
     --> then run `gulp dev`
 3. Link CSS file
-4. Change the Theme Colors from `#FEC503` to `#F44336` using CSS
+4. Change the Theme Colors using CSS from:
+    --> `#fec503` to `#F44336`
+    --> `#f6bf01` to `#E53935`
 5. Add another Value Proposition
 6. Change the Value Proposition icons using Font Awesome `classes`
 7. Link the Javascript and add Basics + Event Listeners
