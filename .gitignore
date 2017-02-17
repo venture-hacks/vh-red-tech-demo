@@ -3,7 +3,8 @@ node_modules
 # Project specific firebase config
 .firebaserc
 # Minified code
-public/**/*.min.*
+public/js/*.min.*
+public/css/*.min.*
 # Editor specific setting
 .editorconfig
 .idea
