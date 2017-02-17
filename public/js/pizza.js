@@ -27,7 +27,8 @@ function login() {
 
     // For our example, we will just change the user image in the nav bar
     // Do this by changing the 'src' attribute to point to the user's Google photo
-    userIconImg.src = user.photoURL;
+
+    // CHANGE THE ATTRIBUTE HERE
 
     // You are now signed in! Do with it what you like!
 
@@ -48,7 +49,7 @@ function login() {
  */
 function setupLogin() {
   loginButton = document.getElementById("login-button");
-  userIconImg = document.getElementById("user-icon");
+  userIconImg // = get a reference to the "user-icon" image tag
 
   // Attach an event listener to the login button to trigger the firebase login
   loginButton.addEventListener('click', function (event) {
